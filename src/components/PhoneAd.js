@@ -19,7 +19,7 @@ const PhoneAd = () => {
         </div>
 
         {/* <!-- Phone image --> */}
-        <div class="w-3/4 md:w-1/2 mb-5">
+        <div class="w-3/4 md:w-1/2 mb-5 ">
           <img src={image} alt="" />
           <div
             class="w-80 h-16 md:h-20 left-36 md:left-48 -mt-20 md:-mt-32 absolute bg-black rounded-lg flex flex-row space-x-5 border-solid border-2 border-slate-700 p-2"

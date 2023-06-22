@@ -1,5 +1,9 @@
 import React from "react";
+import {PlusIcon } from '@heroicons/react/24/solid'
+import image from "../images/icons8-plus-math-24.png"
 const FAQ = () => {
+ 
+
     return ( 
         <div>
             <section id="FAQ">
@@ -12,23 +16,24 @@ const FAQ = () => {
         <div
           class="flex-col grid grid-cols-1 space-y-2 md:items-center md:justify-center w-full"
         >
-          <div class="flex flex-col">
-            <div
-              class="bg-tile flex flex-row md:w-3/4 w-full mx-auto justify-between p-2 md:p-4"
+          <div class="flex flex-col hover:bg-slate-300">
+            <button id="toggleButton"
+              className="bg-tile flex flex-row md:w-3/4 w-full mx-auto justify-between p-2 md:p-4 hover:bg-slate-300 "
             >
-              <p class="text-white text-2xl px-5 pt-4">What is Netflix?</p>
+              <p  class="text-white text-2xl px-5 pt-4">What is Netflix?</p>
               <div class="pt-2 pr-5">
-                <img
-                  src="images/addIcon.png"
+                {/* <img
+                  src={PlusIcon}
                   onclick="openText()"
-                  class="addIcon w-12 h-12"
+                  className=" w-12 h-12"
                   alt=""
-                />
+                /> */}
+                <PlusIcon className="w-12 h-12 bg-white text-white"/>
               </div>
-            </div>
+            </button>
             <div
-              id="info"
-              class="hidden text-white bg-tile md:w-3/4 w-full p-2 md:p-4 mx-auto"
+              id="content"
+              class="hidded text-white bg-tile md:w-3/4 w-full p-2 md:p-4 mx-auto"
             >
               Netflix is a streaming service that offers a wide variety of
               award-winning TV shows, movies, anime, documentaries, and more on
@@ -47,12 +52,7 @@ const FAQ = () => {
                 How much does Netflix cost?
               </p>
               <div class="pt-2 pr-5">
-                <img
-                  src="images/addIcon.png"
-                  onclick="openText()"
-                  class="addIcon w-12 h-12"
-                  alt=""
-                />
+              <PlusIcon className="w-12 h-12 bg-white text-white"/>
               </div>
             </div>
             <div
@@ -71,12 +71,7 @@ const FAQ = () => {
             >
               <p class="text-white text-2xl px-5 pt-4">Where can i watch?</p>
               <div class="pt-2 pr-5">
-                <img
-                  src="images/addIcon.png"
-                  onclick="openText()"
-                  class="addIcon w-12 h-12"
-                  alt=""
-                />
+              <PlusIcon className="w-12 h-12 bg-white text-white"/>
               </div>
             </div>
             <div
@@ -100,12 +95,7 @@ const FAQ = () => {
             >
               <p class="text-white text-2xl px-5 pt-4">How do i cancel?</p>
               <div class="pt-2 pr-5">
-                <img
-                  src="images/addIcon.png"
-                  onclick="openText()"
-                  class="addIcon w-12 h-12"
-                  alt=""
-                />
+              <PlusIcon className="w-12 h-12 bg-white text-white"/>
               </div>
             </div>
             <div
@@ -127,12 +117,7 @@ const FAQ = () => {
                 What can i watch on Netflix?
               </p>
               <div class="pt-2 pr-5">
-                <img
-                  src="images/addIcon.png"
-                  onclick="openText()"
-                  class="addIcon w-12 h-12"
-                  alt=""
-                />
+              <PlusIcon className="w-12 h-12 bg-white text-white"/>
               </div>
             </div>
             <div
@@ -153,12 +138,7 @@ const FAQ = () => {
                 Is Netflix good for kids?
               </p>
               <div class="pt-2 pr-5">
-                <img
-                  src="images/addIcon.png"
-                  onclick="openText()"
-                  class="addIcon w-12 h-12"
-                  alt=""
-                />
+              <PlusIcon className="w-12 h-12 bg-white text-white"/>
               </div>
             </div>
             <div

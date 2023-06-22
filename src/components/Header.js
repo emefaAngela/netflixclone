@@ -3,7 +3,7 @@ import Logo from "../images/Netflix-Logo.png";
 const Header = () => {
     return ( 
         <div>
-            <div className="flex flex-row justify-between space-x-48 pt-5 pb-24  ">
+            <div className="flex flex-row justify-between md:mx-5  pt-5 pb-24  ">
         <div className=" ml-12">
           <img src={Logo} className="h-48 w-48" alt="" />
         </div>

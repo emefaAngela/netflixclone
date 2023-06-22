@@ -1,19 +1,20 @@
 import React from "react";
-import logo from "../images/logo.jpg"
+import image from "../images/newimage.png"
 import Header from "./Header";
+import TvAd from "./TvAd";
 const Home = () => {
     return ( 
+      <div className=" bg-black inset-0 bg-opacity-100 ">
        <div  
        
-      //  className="bg-[url('../images/logo.jpg')]" 
-    className="flex flex-col w-full h-full"
+    className="flex flex-col w-full bg-homescreen  h-full absolute"
        >
-     {/* <Header/> */}
-        <div className="w-full ">
-            <div className="  bg-homescreen w-full h-full  ">
-                {/* <img src={logo} alt="" /> */}
+   
+        <div className="w-full inset-0 bg-homescreen bg-black bg-opacity-100 ">
+            <div className="    ">
+               
                 <Header/>
-        <div className="flex flex-col items-center justify-center relative  md:pl-40 md:pr-40 ">
+        <div className="flex flex-col items-center justify-center   md:pl-40 md:pr-40 ">
         {/* <!-- paragraph 1 --> */}
         <nav className="text-6xl pt-12 w-80% font-bold  md:text-6xl text-white md:w-3/4 text-center">
           Unlimited movies,TV shows, and more.
@@ -55,7 +56,10 @@ const Home = () => {
       </div>
       </div>
       
+      
        </div> 
+       
+       </div>
      );
 }
  

@@ -13,7 +13,7 @@ module.exports = {
         break:'#222222'
       },
       backgroundImage:{
-        homescreen:"url('./images/logo.jpg')",
+        homescreen:"url('./images/newimage.png)",
       }
   },
   plugins: [],

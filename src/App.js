@@ -10,14 +10,18 @@ import PhoneAd from "./components/PhoneAd";
 import WatchEverywhere from "./components/WatchEverywhere";
 import ForKids from "./components/ForKids";
 import FAQ from "./components/FAQ";
+import SignIn from "./components/auth/SignIn";
 import './styles/main.css';
 function App() {
   return (
-    <div className="w-full h-full">
+    <div className="">
        {/* <Header/> */}
        <Home/>
        <BreakLine/>
+       <TvAd className="hidden"/>
+       <TvAd className="hidden"/>
        <TvAd/>
+       
        <BreakLine/>
        <PhoneAd/>
        <BreakLine/>
@@ -28,6 +32,7 @@ function App() {
        <FAQ/>
        <BreakLine/>
        <FooterDesktop/>
+       <SignIn/>
        
        
     </div>

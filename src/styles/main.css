@@ -644,10 +644,10 @@ video {
   background-color: rgb(48 48 48 / var(--tw-bg-opacity));
 }
 .bg-\[url\(\'\.\.\/images\/logo\.jpg\'\)\] {
-  background-image: url('../images/logo.jpg');
+  background-image: url('../images/newimage.png');
 }
 .bg-homescreen {
-  background-image: url('../images/logo.jpg');
+  background-image: url('../images/newimage.png');
 }
 .p-2 {
   padding: 0.5rem;
