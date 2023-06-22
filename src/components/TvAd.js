@@ -5,7 +5,7 @@ const TvAd = () => {
             {/* <!-- TV ad --> */}
     <section id="Tv-ad">
       <div
-        class="md:pr-24 md:pl-24 md:pt-24 h-72 md:pb-24 flex flex-row md:flex-row w-full bg-black items-center justify-center"
+        class="md:pr-24 md:pl-24 md:pt-24  h-72 md:pb-24 flex flex-row md:flex-row w-full bg-black items-center justify-center"
       >
         {/* <!-- Text --> */}
         <div class="w-3/4 text-center md:w-1/2 text-white md:text-left ">

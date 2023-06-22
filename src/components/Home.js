@@ -6,16 +6,16 @@ const Home = () => {
        <div  
        
       //  className="bg-[url('../images/logo.jpg')]" 
-    className="flex flex-col"
+    className="flex flex-col w-full h-full"
        >
      {/* <Header/> */}
-        <div>
-            <div className="  bg-homescreen w-full   ">
+        <div className="w-full ">
+            <div className="  bg-homescreen w-full h-full  ">
                 {/* <img src={logo} alt="" /> */}
                 <Header/>
         <div className="flex flex-col items-center justify-center relative  md:pl-40 md:pr-40 ">
         {/* <!-- paragraph 1 --> */}
-        <nav class="text-3xl pt-12 w-80%  md:text-6xl text-white md:w-3/4 text-center">
+        <nav className="text-6xl pt-12 w-80% font-bold  md:text-6xl text-white md:w-3/4 text-center">
           Unlimited movies,TV shows, and more.
         </nav>
         {/* <!--paragraph 2  --> */}
@@ -37,11 +37,11 @@ const Home = () => {
           <input
             type="text"
             placeholder="Email address"
-            class="flex-1 py-3 h-full rounded-sm rounded-r-none"
+            className="flex-1 py-3 h-32 w-1/4 bg-black border-2 border-white rounded-sm "
           />
           <a
             href="/"
-            class="rounded-sm hidden rounded-l-none h-full items-center py-2.5 justify-center bg-red text-white font-bold px-3 text-center md:flex"
+            className="rounded-sm hidden rounded-l-none h-32 items-center py-2.5 justify-center bg-red text-white font-bold px-3 text-center md:flex"
           >
             Get Started
           </a>
